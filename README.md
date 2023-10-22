@@ -7,6 +7,7 @@ Dentro do diretório .\Countries estão localizados os arquivos:
 
 - `countries.sql`: Este script cria o banco de dados `paises`, as tabelas necessárias, e os dados de cada um.
 - `Dockerfile`: Este arquivo parametriza a criação do container no Docker Desktop.
+- `etl-tabelas`: Os arquivos .ktr foram gerados via etl e utlizados para construção do arquivo .sql para criação do banco de dados.  
 
 ## Uso
 
