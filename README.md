@@ -5,9 +5,12 @@ Este repositório contém um script SQL para criar um banco de dados que armazen
 ## Arquivos SQL
 Dentro do diretório .\Countries estão localizados os arquivos:
 
-- `countries.sql`: Este script cria o banco de dados `paises`, as tabelas necessárias, e os dados de cada um.
+- `countries.sql`: Este script cria o banco de dados `paises` após ETL, com as tabelas necessárias, e os dados.
 - `Dockerfile`: Este arquivo parametriza a criação do container no Docker Desktop.
-- `etl-tabelas`: Os arquivos .ktr foram gerados via etl e utlizados para construção do arquivo .sql para criação do banco de dados.  
+
+No diretório .\Countries\etl-tabelas estão localizados os arquivos:
+- `Countries - ETL`: Arquivo .ktr gerado via etl e utlizado para construção do arquivo .sql para criação do banco de dados.  
+- `Countries-schema`: Arquivo de criação do esquema do banco de dados.
 
 ## Uso
 
